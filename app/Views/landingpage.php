@@ -31,7 +31,6 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ml-auto">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About Us</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Our Team</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
@@ -46,40 +45,6 @@
             <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
         </div>
     </header>
-    <!-- Services-->
-    <section class="page-section" id="services">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase">Services</h2>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="my-3">E-Commerce</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="my-3">Responsive Design</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="my-3">Web Security</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-            </div>
-        </div>
-    </section>
     <!-- About-->
     <section class="page-section" id="about">
         <div class="container">
@@ -132,7 +97,7 @@
                     <div class="team-member">
                         <img class="mx-auto rounded-circle" src="assets/img/team/default.jpg" alt="CEO" />
                         <h4>Renaldy Bagas Bayu Pambudi</h4>
-                        <p class="text-muted">Co-Founder and CEO</p>
+                        <p class="text-muted">Co-Founder, CEO and CTO </p>
                     </div>
                 </div>
             </div>
@@ -141,7 +106,7 @@
                     <div class="team-member">
                         <img class="mx-auto rounded-circle" src="assets/img/team/dhika.jpg" alt="CTO" />
                         <h4>Muhammad Dhika Azizi</h4>
-                        <p class="text-muted">Chief Technology Officer</p>
+                        <p class="text-muted">Vice Chief Technology Officer</p>
                     </div>
                 </div>
                 <div class="col-lg-3">
