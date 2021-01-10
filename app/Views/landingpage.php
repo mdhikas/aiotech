@@ -41,7 +41,7 @@
     <!-- Masthead-->
     <header class="masthead" id="home">
         <div class="container">
-            <div class="masthead-subheading">Welcome To AioTech!</div>
+            <div class="masthead-subheading text-uppercase">Welcome To AioTech</div>
             <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
         </div>
     </header>
@@ -97,7 +97,7 @@
                     <div class="team-member">
                         <img class="mx-auto rounded-circle" src="assets/img/team/default.jpg" alt="CEO" />
                         <h4>Renaldy Bagas Bayu Pambudi</h4>
-                        <p class="text-muted">Co-Founder, CEO and CTO </p>
+                        <p class="text-muted">Co-Founder and CEO</p>
                     </div>
                 </div>
             </div>
@@ -105,20 +105,29 @@
                 <div class="col-lg-3">
                     <div class="team-member">
                         <img class="mx-auto rounded-circle" src="assets/img/team/dhika.jpg" alt="CTO" />
-                        <h4>Muhammad Dhika Azizi</h4>
-                        <p class="text-muted">Vice Chief Technology Officer</p>
+                        <h4>Muhammad Dhika</h4>
+                        <p class="text-muted">Chief Technology Officer</p>
                     </div>
                 </div>
                 <div class="col-lg-3">
                     <div class="team-member">
                         <img class="mx-auto rounded-circle" src="assets/img/team/default.jpg" alt="CFO" />
-                        <h4>Tiwi</h4>
-                        <p class="text-muted">Chief Financial Officer and Career Dev</p>
+                        <h4>Trisma Juwita</h4>
+                        <p class="text-muted">Chief Financial Officer</p>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="team-member">
+                                <img class="mx-auto rounded-circle" src="assets/img/team/default.jpg" alt="Vice CFO" />
+                                <h4>Shavira Khalisa</h4>
+                                <p class="text-muted">Vice CFO</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-3">
                     <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="assets/img/team/default.jpg" alt="CMO" />
+                        <img class="mx-auto rounded-circle" src="assets/img/team/aul-1.jpeg" alt="CMO" />
                         <h4>Sri Aulia Khalifa</h4>
                         <p class="text-muted">Chief Marketing Officer and Media</p>
                     </div>
@@ -127,7 +136,7 @@
                             <div class="team-member">
                                 <img class="mx-auto rounded-circle" src="assets/img/team/default.jpg" alt="Vice CMO" />
                                 <h4>Alya Febianti</h4>
-                                <p class="text-muted">Vice Chief Marketing Officer and Media</p>
+                                <p class="text-muted">Vice CMO</p>
                             </div>
                         </div>
                     </div>
@@ -154,22 +163,26 @@
                 <h2 class="section-heading text-uppercase">Contact Us</h2>
             </div>
             <div class="row">
-                <div class="col">
-                    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.719890623071!2d106.72425701458849!3d-6.168251095534269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f788f60e492d%3A0x8b5ed89a85136510!2sInstitut%20Teknologi%20PLN!5e0!3m2!1sid!2sid!4v1609942749266!5m2!1sid!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <div class="col maps">
+                    <div class="embed-responsive embed-responsive-4by3">
+                        <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.719890623071!2d106.72425701458849!3d-6.168251095534269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f788f60e492d%3A0x8b5ed89a85136510!2sInstitut%20Teknologi%20PLN!5e0!3m2!1sid!2sid!4v1609942749266!5m2!1sid!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
                 </div>
-                <div class="col contact">
+                <div class="contact-wrapper">
                     <h4 class="contact-head">AioTech ITPLN</h4>
                     <p>Institut Teknologi PLN</p>
                     <p>Menara PLN, Jl. Lkr. Luar Barat, RT.1/RW.1, Duri Kosambi</p>
                     <p>Cengkareng - Kota Jakarta Barat. 11750</p>
-                    <div class="row">
+                    <!-- <div class="row">
                         <div class="col-sm-1">
                             <a class="btn btn-primary btn-social my-4 mx-2" href="https://www.instagram.com/aiotechitpln/?hl=id"><i class="fab fa-instagram"></i></a>
                         </div>
                         <div class="col-sm-10 mt-4 ml-3">
                             <p>Instagram AioTech ITPLN</p>
                         </div>
-                    </div>
+                    </div> -->
+                    <p class="mt-3"><a class="btn btn-primary btn-social mr-3" href="https://www.instagram.com/aiotechitpln/?hl=id" target="_blank"><i class="fab fa-instagram"></i></a>Instagram AioTech ITPLN</p>
+                    <p class="mt-3"><a class="btn btn-primary btn-social mr-3" href="mailto:aiaotechitpln.gmail.com"><i class="fas fa-inbox"></i></a>Email AioTech ITPLN</p>
                 </div>
             </div>
         </div>
@@ -178,7 +191,7 @@
     <footer class="footer py-4">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg text-lg-center font-weight-bold">Copyright © 2020 AioTech ITPLN. All rights reserved</div>
+                <div class="col-lg text-lg-center font-weight-bold">© 2020 AioTech ITPLN. All rights reserved</div>
             </div>
         </div>
     </footer>

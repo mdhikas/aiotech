@@ -10134,17 +10134,17 @@ header.masthead {
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
-  font-style: italic;
+  /* font-style: italic; */
   line-height: 1.5rem;
   margin-bottom: 25px;
-  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 header.masthead .masthead-heading {
   font-size: 3.25rem;
   font-weight: 700;
   line-height: 3.25rem;
   margin-bottom: 2rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Domine", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 @media (min-width: 768px) {
@@ -10154,7 +10154,7 @@ header.masthead .masthead-heading {
   }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
-    font-style: italic;
+    /* font-style: italic; */
     line-height: 2.25rem;
     margin-bottom: 2rem;
   }
@@ -10483,13 +10483,14 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-weight: 700;
   color: #ced4da;
 }
-section#contact .contact {
+section#contact .contact-wrapper {
   color: #fff;
 }
 section#contact .contact-head {
+  /* margin-top: 2rem; */
   margin-bottom: 2rem;
 }
-section#contact .contact > p {
+section#contact .contact-wrapper > p {
   margin: 0;
 }
 
@@ -10498,26 +10499,47 @@ section#contact .contact > p {
   height: 500px;
 } */
 
-@media (min-width: 576px) {
-  .maps {
-    width: 120;
+.maps {
+  float: left;
+  width: 50%;
+}
+
+.contact-wrapper {
+  float: right;
+  width: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+  .contact-wrapper {
+    width: 100%;
+    margin-top: 2rem;
+  }
+}
+
+/* @media (min-width: 576px) {
+  .contact-wrapper {
+    width: 100%;
+    margin-top: 2rem;
   }
 }
 @media (min-width: 768px) {
-  .maps {
-    width: 240;
+  .contact-wrapper {
+    width: 100%;
+    margin-top: 2rem;
   }
 }
 @media (min-width: 992px) {
-  .maps {
-    width: 480;
+  .contact-wrapper {
+    width: 100%;
+    margin-top: 2rem;
   }
 }
 @media (min-width: 1200px) {
-  .maps {
-    width: 960;
+  .contact-wrapper {
+    width: 100%;
+    margin-top: 2rem;
   }
-}
+} */
 
 .footer {
   text-align: center;
